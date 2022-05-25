@@ -1,0 +1,68 @@
+/* Début du site */
+
+/* body { A début plus tard, problème de focus sur le site sinon 
+    overflow-x: hidden;
+} */
+
+:root {
+    --body-color : #E4E9F7;
+    --sidebar-color : #fff;
+    --primary-color : #E82000;
+    --primary-color-light : #F6F5FF;
+    --toggle-color : #DDD;
+    --text-color : #707070;
+
+    --trans-02 : all 0.2s ease;
+    --trans-03 : all 0.3s ease;
+    --trans-04 : all 0.4s ease;
+    --trans-05 : all 0.5s ease;   
+} 
+
+.home {
+    position: relative;
+    left: 250px;
+    height: 100vh;
+    width: calc(100% -250px);
+    background: var(--body-color);
+    transition: var(--trans-05);
+}
+
+.home .text {
+    font-size: 30px;
+    font-weight: 500;
+    /* color: var(--text-color); */
+    padding: 8px 40px;
+}
+.sidebar.close ~ .home {
+    left: 88px;
+    width: calc(100% -88px);
+
+}
+
+.home {
+    color: var(--text-color);
+}
+
+/* Accueil */ 
+
+.home .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home .image-main img {
+    display: flex;
+    width: 30%;
+    margin-left: 10%;
+}
+
+.home .text-main h2 {
+    display: flex;
+    margin-left: -260%;
+    margin-top: 20vh;
+}
+
+.text-main .prenom {
+    color: #E82000;
+    margin-left: 5px;
+}
