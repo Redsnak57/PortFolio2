@@ -22,8 +22,8 @@ html {
     --trans-02 : all 0.2s ease;
     --trans-03 : all 0.3s ease;
     --trans-04 : all 0.4s ease;
-    --trans-05 : all 0.5s ease;   
-} 
+    --trans-05 : all 0.5s ease;
+}
 
 
 body {
@@ -135,21 +135,6 @@ body.dark .sidebar header .toggle {
     color: var(--text-color);
 }
 
-.sidebar .search-box {
-    background-color: var(--primary-color-light);
-    border-radius: 6px;
-}
-
-.search-box input {
-    height: 100%;
-    width: 100%;
-    outline: none;
-    border: none;
-    border-radius: 6px;
-    background: var(--primary-color-light);
- 
-}
-
 .sidebar li a {
     height: 100%;
     width: 100%;
@@ -185,6 +170,8 @@ body.dark .sidebar li a:hover .text {
     position: relative;
     border-radius: 6px;
     background: var(--primary-color-light);
+    margin-top: 40vh;
+
 }
 
 .menu-bar .mode .moon-sun{

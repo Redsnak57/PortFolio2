@@ -62,7 +62,27 @@
     margin-top: 20vh;
 }
 
-.text-main .prenom {
-    color: #E82000;
-    margin-left: 5px;
+/* contact icon */ 
+.home .contact-icon {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    margin-top: -85vh;
+    margin-left: 88%;
+    font-size: 30px;
 }
+
+.first{
+    margin-top: 18px;
+}
+
+.home .contact-icon a {
+    color: var(--text-color);
+}
+
+.tourne {
+    border: 1px solid var(--text-color);
+    transform: rotate(90deg);
+}
+
+/* fin contact icon */ 
